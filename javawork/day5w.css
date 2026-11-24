@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+form {
+    width: 320px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+span {
+    font-size: 13px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

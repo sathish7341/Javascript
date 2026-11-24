@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="day5w.css">
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <p id="msg"></p>
+
+    <form id="regForm">
+        <label>Name:</label><br>
+        <input type="text" id="name"><br>
+        <span id="nameErr"></span><br>
+
+        <label>Email:</label><br>
+        <input type="text" id="email"><br>
+        <span id="emailErr"></span><br>
+
+        <label>Mobile Number:</label><br>
+        <input type="text" id="mobile"><br>
+        <span id="mobileErr"></span><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br>
+        <span id="genderErr"></span><br>
+
+        <label>Course Preference:</label><br>
+        <select id="course">
+            <option value="">--Select Course--</option>
+            <option value="FSD">Full Stack Development</option>
+            <option value="Python">Python</option>
+            <option value="Data Analytics">Data Analytics</option>
+        </select><br>
+        <span id="courseErr"></span><br>
+
+        <button type="submit" id="btn">Submit</button>
+    </form>
+
+    <script src="day5w.js"></script>
+</body>
+</html>
